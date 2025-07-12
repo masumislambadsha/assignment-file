@@ -1,11 +1,10 @@
-body {
-            background-color: #DFDBE5;
+body { background-color: #DFDBE5;
             background-color:white;
             padding: 16px;
         }
 
         .banner {
-            max-width: 1200px;
+            max-width: 600px;
             margin: 0 auto;
             background-image:url(Hero-bg.png);
         }
@@ -47,7 +46,7 @@ body {
         .main-content {
             text-align: center;
             margin: 0 auto;
-            max-width: 800px;
+            max-width: 600px;
         }
 
         .title {
@@ -83,7 +82,7 @@ body {
     display: flex;
     margin-top: 250px;
     justify-content: center;
-    gap: 120px;
+    gap: 40px;
 }
 .centro{transition: transform 0.5s;
 }
@@ -102,7 +101,12 @@ transform: scale(1.1);
 }
 .left{
     padding: 65px;
+    
 }
+/* .right{
+    display: flex;
+    margin-right:-50px ;
+} */
 
 .live-btn{ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
          border-radius: 18px;
@@ -120,8 +124,9 @@ transform: scale(1.1);
            border-radius: 18px;
         }
 .pic{
-    width: 500px;
+    width: 300px;
     border-radius: 30px;
+    margin-top: 66px;
 }
 .area{
     width: 650px;
@@ -174,7 +179,7 @@ transform: scale(1.1);
 }
 .card-container{
      display: flex; gap: 100px;
-    justify-content: center;
+    justify-content: center; flex-wrap: wrap;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .card{
@@ -236,12 +241,22 @@ p{
            height: 60px;
            border-radius: 18px;
         }
+/* .imgs{
+    display: flex;
+    justify-content: center;
+    width: 300px;
+    margin-left: -50px ;
+    }*/
 .imgs{
     display: flex;
     justify-content: center;
+   max-width: 300px;
+   padding-left: 140px ;
 }
 .imgs img{
     border-radius: 40px;
+    width: 500px;
+    margin-left: 1279px;
 }
 .minus-margin{
     margin-top: -11px;
@@ -250,17 +265,17 @@ p{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .parent-container{
-
     display: flex;
-    gap: 70px;
+    gap: 120px;
 }
 .container1{
-    margin: 30px;
+    
     width: 300px;
     font-size:xx-large;
     align-items: center;
     display: flex;
 }
+
 label{
     font-size: large;
     font-weight: 600 ;
@@ -280,13 +295,12 @@ label{
 .btn{
     font-size: 15px;
     font-weight: 100;
-    color: aliceblue;
+    color: rgb(253, 253, 253);
     width: 380px;
     height: 40px;
     border-radius: 9px;
     background-color: blue;
     transition-duration: 0.5s;
-    position:fixed ;
 }
 .btn:hover {
            width: 250px; 
